@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="pageTitle">System Info</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-color: #f4f4f9;
+      }
+      header {
+        background-color: #007acc;
+        color: white;
+        padding: 20px 0;
+      }
+      section {
+        padding: 20px;
+      }
+      p {
+        font-size: 1.2rem;
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to <span id="hostname">...</span>'s Server</h1>
+    </header>
+    <section>
+      <p><strong>Uptime:</strong> <span id="uptime">...</span></p>
+      <p><strong>Platform:</strong> <span id="platform">...</span></p>
+      <p><strong>Architecture:</strong> <span id="architecture">...</span></p>
+      <p><strong>Total Memory:</strong> <span id="totalMemory">...</span> GB</p>
+      <p><strong>Free Memory:</strong> <span id="freeMemory">...</span> GB</p>
+      <p><strong>CPU Model:</strong> <span id="cpuModel">...</span></p>
+      <p><strong>CPU Cores:</strong> <span id="cpuCount">...</span></p>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
